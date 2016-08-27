@@ -2,13 +2,11 @@ library("reshape2")
 library("knitr")
 library("markdown")
 
-# Download and unzip dataset
+# Download and unzip dataset [this should already be in the working folder]
 
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl,destfile="Dataset.zip")
-
-
-unzip("Dataset.zip")
+#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download.file(fileUrl,destfile="Dataset.zip")
+#unzip("Dataset.zip")
 
 # Extract activity labels and features
 
